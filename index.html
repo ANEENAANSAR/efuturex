@@ -7,6 +7,7 @@
     <title>efuturex</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/9941501173.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 </head>
 <body>
     <header>
@@ -21,15 +22,26 @@
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
+        <nav id="icon5" class="jav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Instructors</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
         <nav id="mobile">
             <span>
                 <i class="fa-solid fa-bars"></i>
             </span>
         </nav>
+        <script src="efuturex.js"></script>
     </header>
     <section id="spotlight">
         <div>
-        <h1>unlock your future</h1>
+        <h1>unlock your<br> <span id="slide">future</span> </h1>
         <p>Your gateway to a premium software engineering career<br>Everything you need in one programme and that is with industry experts working with you!</p>
         </div>
         <div>
@@ -130,14 +142,14 @@
             <div class="flex">
                 <div>
                     <span>
-                        <i class="fa-solid fa-envelope"></i>
+                        <i class="fa-solid fa-envelope i-con"></i>
                     </span>
                     <h4>General Enquires</h4>
                     <p>hello@efuturex.com</p>
                 </div>
                 <div>
                     <span>
-                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-solid fa-phone i-con"></i>
                     </span>
                     <h4>Phone number</h4>
                     <p>+91 7907017504</p>
@@ -145,7 +157,7 @@
             </div>
             <div>
                 <span>
-                    <i class="fa-solid fa-location-dot"></i>
+                    <i class="fa-solid fa-location-dot i-con"></i>
                 </span>
                 <h4>Address</h4>
                 <p>Efuturex Technologies<br>J&J English Medium School<br>Campus, karupadanna PO,<br>Kodungallur, Thrissur,India</p>
@@ -169,9 +181,17 @@
                     </p>
                     <textarea class="length" name="" placeholder="Tell us about your project"id="" cols="40" rows="20"></textarea>
                     <p class="button">
-                        <a href="">Sent enquiries</a>
+                        future<a href="">Sent enquiries</a>
                     </p>
                 </form>
             </div>
         </div>
     </footer>
+    <script>
+    var typed = new Typed('#slide', {
+      strings: ['skills.', 'potential.' ,'future'],
+      typeSpeed: 80,
+      loop: true,
+    });
+  </script>
+</body>

@@ -196,3 +196,24 @@ footer h4{
         max-width: 300px;
     }
 }
+.jav{
+    display: none;
+    line-height: 3rem;
+    
+}
+#icon5{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 150pv;
+    width: 800px;
+    top: 0;
+    right: 0;
+    text-align: left;
+    z-index: 2;
+    align-items: left;
+    margin-top: 100px;
+    line-height: 2;
+}
+#slide{
+    color: blue;
+}
