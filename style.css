@@ -133,6 +133,8 @@ footer{
     padding-left: 10px;
     text-align: center;
     border-radius: 3px;
+    height: 2rem;
+    top: 1rem;
 }
 .button a{
     color: white;
@@ -215,5 +217,5 @@ footer h4{
     line-height: 2;
 }
 #slide{
-    color: blue;
+    color: rgb(64, 64, 100);
 }
